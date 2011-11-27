@@ -1,0 +1,27 @@
+.nav-panel{
+  width: 20%;
+  height: 100%;
+}    
+.main-panel{
+  width: 80%;  
+  height: 100%;
+}
+
+#spliter{
+  width: 100%;
+  height: 100%;    
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.vsplitbar {
+    width: 5px;
+    background: #aaa;
+}
+.dialog{
+    display: none;
+}

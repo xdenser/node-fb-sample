@@ -1,0 +1,7 @@
+<div>
+    <button data-bind='click: addConnection'>+</button>
+    <button data-bind='click: editConnection, enable: currentConnection()'>...</button>
+    <button data-bind='click: deleteConnection, enable: currentConnection()'>-</button>
+</div>
+<select data-bind="options: connections, value: currentConnection" style="width: 100%; height: 90%;" size=10>
+</select>

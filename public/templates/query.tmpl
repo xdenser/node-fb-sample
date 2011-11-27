@@ -1,0 +1,8 @@
+<div>
+    <textarea style="width: 100%" data-bind="value: sql, enable: navigation() && navigation().currentConnection()"></textarea>
+    <button data-bind="click: runQuery">Run query</button>
+</div>
+<div >
+<table data-bind="dataTable:{ source: tableSource, options:{  'bJQueryUI': true, 'sScrollX': '100%' } }">
+</table>
+</div>    

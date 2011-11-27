@@ -1,0 +1,14 @@
+<table>
+<tr><td><label>Connection Name:</label></td><td><input type="text" data-bind="value: Name" /></td></tr>
+<tr><td><label>Database: </label></td><td><input type="text" data-bind="value: database" /></td></tr>
+<tr><td><label>User</label></td><td><input type="text" data-bind="value: user" /></td></tr>
+<tr><td><label>Password:</label></td><td><input type="password" data-bind="value: password" /></td></tr>
+<tr><td><label>Role:</label></td><td><input type="text" data-bind="value: role" /></td></tr>
+</table>
+<div>
+  <img id='busy' data-bind='style: { display: (Status()=="busy")?"inline":"none"}' src="/img/busy.gif" />
+  <img id='error' data-bind='style: { display: (Status()=="error")?"inline":"none"}' src="/img/error.gif" />
+  <img id='success' data-bind='style: { display: (Status()=="success")?"inline":"none"}' src="/img/success.gif" />
+  <span id='message' data-bind='text: StatusMessage, style: { display: (Status()=="error" || Status()=="success")?"inline":"none"}'></span>
+</div>
+
