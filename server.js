@@ -146,7 +146,9 @@ app.post('/runQuery',function(req,res){
 
 app.use( express.static(__dirname + '/public') );
 
-app.listen(8080);
+var port = 8080;
+app.listen(port);
+console.log('Server started at http://localhost:'+port);
 
 function LoadConfig()
 {
