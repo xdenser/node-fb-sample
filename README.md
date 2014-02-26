@@ -7,6 +7,12 @@
 - [libfbclient](http://www.firebirdsql.org/)
 
 ##Starting
+Installing node dependencies 
+
+    sudo npm install firebird -G
+    sudo npm install express -G
+
+##Starting
 Run
 
     node server

@@ -1,5 +1,5 @@
 var express = require('express'), 
-    app =express.createServer(),
+    app = express(),
     fs = require('fs'),
     fb = require('firebird');
 
