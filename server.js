@@ -1,5 +1,5 @@
 var express = require('express'), 
-    var app = express(),
+    app = express(),
     fs = require('fs'),
     fb = require('firebird');
 
