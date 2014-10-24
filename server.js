@@ -2,11 +2,13 @@ var express = require('express'),
     app = express(),
     fs = require('fs'),
     fb = require('firebird');
+    bodyParser = require('body-parser');
 
 var CFG = LoadConfig();
 CFG.connections = CFG.connections||[];
 
-app.use(express.bodyParser());
+app.use(bodyParser.urlencoded({ extended: false }))    // parse application/x-www-form-urlencoded
+app.use(bodyParser.json())    // parse application/json
 app.get('/', function(req, res){
   res.redirect('/index.html');
 });
