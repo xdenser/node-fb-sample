@@ -1,0 +1,10 @@
+{
+  "name": "node-fb-sample",
+  "description": "Sample node-firebird-libfbclient application using NodeJS and Firebird SQL (libfbclient  is required)",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.*",
+    "firebird": "*",
+    "body-parser": "*"
+  }
+}
