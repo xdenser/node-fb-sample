@@ -11,6 +11,7 @@ Installing node dependencies
 
     sudo npm install -g firebird
     sudo npm install -g express
+    sudo npm install -g body-parser
 
 ##Starting
 Run
