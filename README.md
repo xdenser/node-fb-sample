@@ -9,8 +9,8 @@
 ##Starting
 Installing node dependencies 
 
-    sudo npm install firebird -G
-    sudo npm install express -G
+    sudo npm install -g firebird
+    sudo npm install -g express
 
 ##Starting
 Run
