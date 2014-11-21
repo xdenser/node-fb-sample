@@ -1,10 +1,14 @@
 {
   "name": "node-fb-sample",
   "description": "Sample node-firebird-libfbclient application using NodeJS and Firebird SQL (libfbclient  is required)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "express": "4.*",
     "firebird": "*",
     "body-parser": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xdenser/node-fb-sample.git"
   }
 }
