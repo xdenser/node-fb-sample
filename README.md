@@ -9,8 +9,8 @@
 ##Starting
 Installing node dependencies 
 
-    sudo npm install -g firebird
-    sudo npm install -g express
+    cd node-fb-sample
+    npm install
 
 ##Starting
 Run
