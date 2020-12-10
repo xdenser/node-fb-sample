@@ -1,19 +1,17 @@
-#Sample application using NodeJS and Firebird SQL.
+# Sample application using NodeJS and Firebird SQL.
 
-##Dependencies:
+## Dependencies:
 - [ExpressJS](http://expressjs.com/)
 - [node-firebird-libfbclient](https://github.com/xdenser/node-firebird-libfbclient)
 - [NodeJS](http://nodejs.org/)
 - [libfbclient](http://www.firebirdsql.org/)
 
-##Starting
-Installing node dependencies 
+## Starting Installing node dependencies 
 
     cd node-fb-sample
     npm install
 
-##Starting
-Run
+## Starting Run
 
     node server
     
